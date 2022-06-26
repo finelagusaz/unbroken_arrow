@@ -1,10 +1,10 @@
 charset,UTF-8
 
-name,はろーYAYAわーるど
+name,未来になれなかったあの夜に
 type,ghost
 
-sakura.name,紺野ややめ
-kero.name,マック朗
+sakura.name,アネモネ
+kero.name,あの夜この夜
 
 sstp.allowunspecifiedsend,1
 
@@ -12,6 +12,6 @@ icon,icon.ico
 
 shiori,yaya.dll
 
-craftman,seibihan
-craftmanw,整備班
-craftmanurl,http://ms.shillest.net/yayame.xhtml
+craftman,Fine Lagusaz
+craftmanw, フィーネ・ラグサズ
+craftmanurl,https://blankrune.sakura.ne.jp/

@@ -1,47 +1,23 @@
-charset,UTF-8
+charset,Shift_JIS
 
-//シェル一式のライセンスは以下のようになります。
-//http://creativecommons.org/licenses/by-nc-nd/2.1/jp/
-
-craftman,SATO M
-craftmanurl,http://sgmh.sakura.ne.jp/tcg/
-craftmanw,サトウ　Ｍ
-
-name,Master
 type,shell
+name,master
+id,master
 
-sakura.balloon.alignment,none
-kero.balloon.alignment,none
+craftman,BlackStrings
+craftmanw,���T���L
+craftmanurl,http://februaryblossom.web.fc2.com/
 
-sakura.seriko.alignmenttodesktop,free
-kero.seriko.alignmenttodesktop,free
+menu.background.bitmap.filename,background.png
+menu.foreground.bitmap.filename,foreground.png
+menu.sidebar.bitmap.filename,sidebar.png
 
-sakura.balloon.offsetx,0
-sakura.balloon.offsety,50
+menu.background.font.color.r,250
+menu.background.font.color.g,250
+menu.background.font.color.b,200
 
-kero.balloon.offsetx,10
-kero.balloon.offsety,55
+menu.foreground.font.color.r,120
+menu.foreground.font.color.g,120
+menu.foreground.font.color.b,200
 
-menu.background.bitmap.filename,menu_background.png
-menu.foreground.bitmap.filename,menu_foreground.png
-menu.sidebar.bitmap.filename,menu_sidebar.png
-
-menu.background.font.color.r,96
-menu.background.font.color.g,96
-menu.background.font.color.b,160
-
-menu.foreground.font.color.r,255
-menu.foreground.font.color.g,255
-menu.foreground.font.color.b,255
-
-menu.disable.font.color.r,192
-menu.disable.font.color.g,192
-menu.disable.font.color.b,255
-
-menu.separator.color.r,96
-menu.separator.color.g,96
-menu.separator.color.b,160
-
-menu.background.alignment,lefttop
-menu.foreground.alignment,lefttop
-menu.sidebar.alignment,top
+seriko.use_self_alpha,1
