@@ -56,15 +56,6 @@ RandomTalkEx : nonoverlap
 OnKeyPress
 {
 	case reference0 {
-		when "a" {
-		"\u\s[10]\0\s[5]えー。\w8\1アップルのAだな。\w8\0\s[1]\n\nえー。\w8\1\n\n‥\w5‥\w5やかましい。\e"
-		}
-		when "y" {
-		"\u\s[10]\0\s[5]YAYAのYだね。\w8\1YAYAって何回も書いてると、ゲシュタルト崩壊起こすぞ。\w8\0\s[1]\n\n‥\w5‥\w5なぁに、それ。\w8\1\n\n文字に見えなくなるって事だ。\w8\0\s[2]\n\nマック朗、物知りだねー。\e"
-		}
-		when "f1" {
-		"\u\s[10]\0\s[5]ふぁ～\w5はふぁんくしょんの～ふぁ～♪\w8\1そりゃそうだけど。\w8\0\s[4]\n\nふぁんくしょんっ！\w8\1\n\n‥\w5‥\w5ダジャレかい。\e"
-		}
 		when "t" {
 			'\![raise,OnAiTalk]'
 		}
