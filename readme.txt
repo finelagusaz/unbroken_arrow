@@ -1,14 +1,21 @@
-----------------
-「YAYA」テンプレートゴースト
-紺野ややめ
-----------------
+# ReadMe
 
-20210625
-YAYA version Tc555-1
+## これは?
 
-original author : umeici
-change by : ukiya
-modernized by : ponapalt and contributors
+ゴースト「悪意なき悪意」の続編です。
 
-https://github.com/ponapalt/konnoyayame
+アネモネが元気になったらこうなる編です。
 
+## キャラが違うのでは
+
+病をコアにするとは、そういうことなのです。
+
+## 本人ですよね
+
+本人ですとも。
+
+## 連絡先
+
+Fine Lagusaz
+algiz.rune@gmail.com
+https://blankrune.sakura.ne.jp/
