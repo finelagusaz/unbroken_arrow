@@ -20,8 +20,6 @@ RandomTalk
 //------------------------------------------------------------------------------
 RandomTalkEx : nonoverlap
 {
-	mode = "Outgo"
-	--
 	EVAL("RandomTalkEx%mode")
 }
 

@@ -12,6 +12,7 @@ OnFirstBoot
 	//---- 変数の初期化
 	username         = "ユーザーさん"
 	teachusername    = 0	// ユーザー名覚え用
+	mode             = "Outgo"
 
 	//---- Vanishカウントを見て、真の初回か否かを判定する
 	if reference[0] == 0
@@ -34,6 +35,12 @@ OnFirstBoot
 
 OnBoot
 {
+	//---- 変数の初期化
+	// TODO: モード切替以前から利用しているユーザーの救済措置。正式版リリース時には削除する
+	if mode == "" {
+		mode == "Outgo"
+	}
+
 	//---- まず双方のサーフィスを表示
 	"\0\s[0]\1\s[10]"
 	--
