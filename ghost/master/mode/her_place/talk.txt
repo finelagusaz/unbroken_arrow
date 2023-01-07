@@ -1,0 +1,4 @@
+RandomTalkExHerPlace : nonoverlap
+{
+    '\0\s[0]わたしの家だよ。\e'
+}

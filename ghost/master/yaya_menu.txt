@@ -29,6 +29,8 @@ OpenMenu
 	--
 	AYATEMPLATE.MenuItem("しゃべり頻度を変えて","Menu_TALKINTERVAL")
 	--
+	AYATEMPLATE.MenuItem("場所を変えよう","Menu_MOVE")
+	--
 	AYATEMPLATE.MenuItem("他のゴーストと話す","Menu_GHOSTCOMSTART")
 	--
 	AYATEMPLATE.MenuItem("アネモネに話しかける","Menu_COMMUNICATEOPEN")
@@ -130,4 +132,29 @@ Menu_HEADLINECANCEL
 {
 	//---- キャンセルされた
 	"\0\s[0]うん。\e"
+}
+
+Menu_MOVE
+{
+	"\0\s[0]どこにいこうか?"
+	--
+	AYATEMPLATE.MenuItem("アネモネの家","Menu_HERPLACE",200)
+	--
+	AYATEMPLATE.MenuItem("街","Menu_Outgo")
+	--
+	AYATEMPLATE.MenuItem("戻る","OpenMenu",150)
+}
+
+Menu_HERPLACE
+{
+	mode = "HerPlace"
+	--
+	"\0\s[0]ゆっくりするにはいいと思うよ。\e"
+}
+
+MenuOutgo
+{
+	mode = "Outgo"
+	--
+	"\0\s[0]どの辺までいこうか。\e"
 }
