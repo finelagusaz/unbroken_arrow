@@ -140,7 +140,7 @@ Menu_MOVE
 	--
 	AYATEMPLATE.MenuItem("アネモネの家","Menu_HERPLACE",200)
 	--
-	AYATEMPLATE.MenuItem("街","Menu_Outgo")
+	AYATEMPLATE.MenuItem("街","Menu_OUTGO")
 	--
 	AYATEMPLATE.MenuItem("戻る","OpenMenu",150)
 }
@@ -152,7 +152,7 @@ Menu_HERPLACE
 	"\0\s[0]ゆっくりするにはいいと思うよ。\e"
 }
 
-MenuOutgo
+Menu_OUTGO
 {
 	mode = "Outgo"
 	--
