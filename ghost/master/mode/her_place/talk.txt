@@ -1,4 +1,4 @@
 RandomTalkExHerPlace : nonoverlap
 {
-    '\0\s[0]わたしの家だよ。\e'
+    '\0\s[0]適当に、\w4と言っても座る場所ないよね。\e'
 }

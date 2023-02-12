@@ -20,7 +20,11 @@ RandomTalk
 //------------------------------------------------------------------------------
 RandomTalkEx : nonoverlap
 {
-	EVAL("RandomTalkEx%mode")
+	_talk_array = IARRAY
+	_talk_array ,= EVAL("RandomTalkEx%mode")
+	_talk_array ,= RandomTalkCommon
+
+	parallel _talk_array 
 }
 
 //******************************************************************************
