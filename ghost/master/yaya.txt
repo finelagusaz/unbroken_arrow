@@ -41,6 +41,9 @@ dic, yaya_mouse.txt			// マウス入力関連辞書
 dic, yaya_menu.txt			// メニュー処理辞書
 dic, yaya_etc.txt			// 種々のイベント辞書
 
+dicdir, mode/outgo
+dicdir, mode/her_place
+
 //------------------------------------------------------------------------------
 //セーブファイル暗号化
 // onにするとセーブファイルを暗号化します。
